@@ -1,0 +1,59 @@
+.header{
+    background-color: lightseagreen;
+    margin: 5px;
+    height: 300px;
+}
+.icon{
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    background: transparent url("./images/sun\ .png") no-repeat center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.place{
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+h3{
+    color: white;
+}
+.days{
+    background-color: rgb(41, 38, 38);
+    margin: 5px;
+}
+.day{
+    height: 200px;
+    
+}
+.leftSide{
+    vertical-align: top;
+    display: inline-block;
+    height: 200px;
+    width: 10%;
+    text-align: center;
+    padding: 10px;
+}
+.rightSide{
+    display: inline-block;
+    vertical-align: top;
+}
+.iconRain{
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    background: transparent url("./images/rain.png") no-repeat center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.iconCloudy{
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    background: transparent url("./images/cloudy.png") no-repeat center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
