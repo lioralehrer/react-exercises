@@ -4,7 +4,7 @@ class Quiz extends React.Component {
             <div id="quiz">
                 <QuizTitle />
                 <Q1 />
-               <Q2/>
+                <Q2 />
             </div>
         )
     }
@@ -14,7 +14,7 @@ class QuizTitle extends React.Component {
         return (
             <div className="title">
                 <h1>How Do You Like Front End?</h1>
-                
+
             </div>
 
         )
@@ -25,7 +25,7 @@ class Q1 extends React.Component {
         return (
             <div id="q1">
                 <Q1Title />
-                <Q1Input/>
+                <Input />
             </div>
         )
 
@@ -36,13 +36,13 @@ class Q1Title extends React.Component {
         return (
             <div>
                 <h2>How Much do you love front end?</h2>
-               
+
             </div>
 
         )
     }
 }
-class Q1Input extends React.Component {
+class Input extends React.Component {
     render() {
         return (
             <div>
@@ -57,7 +57,7 @@ class Q2 extends React.Component {
         return (
             <div id="q2">
                 <Q2Title />
-                <Q2Input />
+                <Input />
             </div>
         )
 
@@ -68,21 +68,16 @@ class Q2Title extends React.Component {
         return (
             <div>
                 <h2>What is your favourite front end feature/topic?</h2>
-                
             </div>
         )
     }
 }
-class Q2Input extends React.Component {
-    render() {
-        return (
-            <input></input>
-        )
-    }
+function render() {
+    ReactDOM.render(
+        <Quiz />,
+        document.getElementById("root")
+    );
+
 }
+render();
 
-
-ReactDOM.render(
-    <Quiz />,
-    document.getElementById("root")
-);
