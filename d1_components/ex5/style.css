@@ -1,3 +1,9 @@
 body {
     background: thistle;
 }
+.button{
+    height: 50px;
+    width: 70px;
+    color: blue;
+    background-color: aqua;
+}

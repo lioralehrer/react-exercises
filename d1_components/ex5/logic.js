@@ -1,4 +1,12 @@
+class Button extends React.Component{
+    render(){
+        return(
+            <button className="button">Click Me</button>
+        );
+    }
+}
+
 ReactDOM.render(
-    <div>Hello World</div>,
+    <Button/>,
     document.getElementById("root")
 );
