@@ -1,3 +1,43 @@
-body {
-    background: thistle;
+
+.navBar li{
+    display: inline;
+    margin: 20px;
+    padding: 5px;
+    
+}
+.navBar li.underline{
+    text-decoration: underline;
+}
+
+.mainPage{
+    background: peachpuff;
+    color: white;
+    text-align: center;
+    
+}
+.service{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+.circle{
+    height:150px;
+    width: 150px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+      
+}
+.circle1{
+    background-image: url("./images/note.jpg");
+    background-size: contain;
+}
+.circle2{
+    background-image: url("./images/pencil.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ .circle3{
+    background-image: url("./images/images.png");
+    background-size: contain;
 }
