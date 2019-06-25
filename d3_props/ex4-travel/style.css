@@ -1,0 +1,29 @@
+body {
+    background: thistle;
+}
+.section{
+    display: inline-block;
+    height: 500px;
+    width: 27%;
+    margin: 20px;
+    background-color: beige;
+    position:relative;
+}
+.circle{
+    position: absolute;
+    top:10%;
+    left :30%;
+    height:50%;
+    width: 50%;
+    background-color: rgb(167, 195, 202);
+    border-radius: 50%;
+    display: inline-block;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.text{
+    text-align: center;
+    
+}
