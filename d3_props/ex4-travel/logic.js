@@ -3,61 +3,33 @@
 
 
 class Section extends React.Component {
-    render(){
-        return(
+    render() {
+        return (
             <div className="section">
-               
-                <Icon image={this.props.image}></Icon>
-                <Title title={this.props.title}></Title>
-               <Text  text={this.props.text} ></Text>
-              
-                
+                <div>
+                    <img className="circle" src={this.props.src}></img>
+                </div>
+                <h3>{this.props.title}</h3>
+                <p>{this.props.text}</p>
+
             </div>
         );
     }
 }
-class Icon extends React.Component{
-    render(){
-        return(
-            <div className="circle">
-                <img src={this.props.image} ></img>
-            </div>
-        );
-    }
-}
-class Title extends React.Component{
-    render(){
-        return(
-            <div className="text">
-                 <h3>{this.props.title}</h3>
-            </div>
-        )
-    }
-}
-class Text extends React.Component{
-    render(){
-        return(
-            <div className="text">
-            <p>{this.props.text}</p>
-            </div>
-        )
-    }
-}
 
-
-class TravelApp extends React.Component{
-    render(){
-        return(
-            <div><Section image="./images/around.jpg" title="blabla " text="lalalal"></Section>
-            <Section image="./images/TravelPlaces.png"></Section>
-            <Section image="./images/Travel.png"></Section>
+class TravelApp extends React.Component {
+    render() {
+        return (
+            <div><Section src="./images/around.jpg" title="blabla " text="lalalal"></Section>
+                <Section src="./images/TravelPlaces.png" title="mkmkmk"text="mkmkm"></Section>
+                <Section src="./images/Travel.png" title="mkmkmk"text="mkmkm"></Section>
             </div>
         )
     }
 }
-function render(){
+function render() {
     ReactDOM.render(
-        <TravelApp/>,
+        <TravelApp />,
         document.getElementById("root")
     );
 }

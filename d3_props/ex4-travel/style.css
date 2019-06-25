@@ -7,23 +7,14 @@ body {
     width: 27%;
     margin: 20px;
     background-color: beige;
-    position:relative;
+   text-align: center;
 }
 .circle{
-    position: absolute;
     top:10%;
-    left :30%;
+    margin-top: 20px;
     height:50%;
     width: 50%;
     background-color: rgb(167, 195, 202);
     border-radius: 50%;
-    display: inline-block;
 }
-img{
-    height: 200px;
-    width: 200px;
-}
-.text{
-    text-align: center;
-    
-}
+
