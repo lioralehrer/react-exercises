@@ -1,0 +1,28 @@
+body {
+    background: thistle;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 50px;
+    text-align: center;
+}
+.green{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 50px;
+    text-align: center;
+    
+}
+.blue{
+    background-color: blue;
+}
+.pink{
+    background-color: pink;
+}
+.yellow{
+    background-color: yellow;
+}
