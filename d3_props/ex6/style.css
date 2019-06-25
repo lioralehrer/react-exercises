@@ -1,0 +1,38 @@
+body {
+    background: thistle;
+}
+.box{
+    background-color: brown;
+    border: 1px solid black;
+    /* height: 50px;
+    width: 50px; */
+    display: inline-block;
+}
+.one{
+    height: 50px;
+    width:50px;
+}
+.two{
+    height: 100px;
+    width:100px;
+}
+.three{
+    height: 150px;
+    width: 150px;
+}
+.four{
+    height: 200px;
+    width:200px;
+}
+.rectangle1{
+    height: 20px;
+    width:100px;
+}
+.rectangle2{
+    height:50px;
+    width:200px;
+}
+.rectangle3{
+    height: 200px;
+    width:50px;
+}
