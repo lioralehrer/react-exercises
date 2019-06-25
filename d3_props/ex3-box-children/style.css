@@ -1,0 +1,27 @@
+body {
+    background: thistle;
+}
+div {
+    margin: 10px;
+    padding: 10px;
+}
+
+.one {
+    background: lightgreen;
+    width: 500px;
+}
+
+.two {
+    background: lightskyblue;
+}
+
+.three {
+    background: lightpink;
+}
+
+.four {
+    background: plum;
+    width: 250px;
+    height: 50px;
+    margin: 10 auto;
+}
