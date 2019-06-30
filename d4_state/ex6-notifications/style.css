@@ -1,17 +1,12 @@
 body {
     background: thistle;
 }
-.box{
-    height: 100px;
-    width: 100px;
-    border: 1px,solid,black;
+.message{
+    height: 50px;
+    width: 50px;
+    background-image: url("./images/imessage.png");
+    background-size: contain;
 }
-.blue{
-    background-color: blue;
-}
-.green{
-    background-color: green;
-}
-.orange{
-    background-color: orange;
+span{
+    color:red;
 }

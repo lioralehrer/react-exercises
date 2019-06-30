@@ -1,33 +1,30 @@
-class ColorBox extends React.Component{
-    constructor(){
+class Notification extends React.Component {
+    constructor() {
         super();
-        this.changeColor = this.changeColor.bind(this);
-        this.state={
-            color : ""
-        };
+        this.dismiss = this.dismiss.bind(this);
+        this.random = Math.floor(Math.random() * 11);
+        this.state = ({
+            times: this.random > 0 ? this.random : ""
+        })
     }
-    changeColor(event){
-        let newColor = event.target.innerText;
+    dismiss() {
         this.setState({
-            color : newColor
-        });
+            times: 0
+        })
     }
-    render(){
-        return(
-            <div><h2>Pick a color for your Box: </h2>
-            <button onClick={this.changeColor}>Blue</button>
-            <button onClick={this.changeColor}>green</button>
-            <button onClick={this.changeColor}>Orange</button>
-            <div className={"box "+this.state.color}></div>
+    render() {
+        return (
+            <div className="message">
+                <span onClick={this.dismiss}>{this.state.times}</span>
             </div>
         )
     }
 }
 
 
-function render(){
+function render() {
     ReactDOM.render(
-        <ColorBox/>,
+        <Notification />,
         document.getElementById("root")
     );
 }
