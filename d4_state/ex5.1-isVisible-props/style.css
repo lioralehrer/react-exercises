@@ -1,0 +1,12 @@
+body {
+    background: thistle;
+}
+.circle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.hide{
+    visibility: hidden;
+}
