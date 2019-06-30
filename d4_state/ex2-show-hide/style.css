@@ -1,0 +1,11 @@
+body {
+    background: thistle;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: yellow; 
+}
+.hide{
+    display: none;
+}
