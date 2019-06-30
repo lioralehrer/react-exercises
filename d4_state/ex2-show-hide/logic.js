@@ -3,7 +3,7 @@ class ShowHide extends React.Component {
         super();
         this.toggleBox = this.toggleBox.bind(this);
         this.state = {
-            show = true
+            show : true
         };
     }
     toggleBox() {
