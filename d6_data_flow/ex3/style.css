@@ -1,3 +1,21 @@
 body {
     background: thistle;
 }
+.box {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: lightgray 1px solid;
+}
+
+.green {
+    background: lawngreen;
+}
+
+.blue {
+    background: lightskyblue;
+}
+
+.orange {
+    background: gold;
+}
