@@ -3,7 +3,7 @@ class App extends React.Component {
         return (
             <div>
                 <h1>Category :</h1>
-                <Category></Category>
+                <Category category1="names" category2="animals" category3="games"></Category>
 
             </div>
         )
