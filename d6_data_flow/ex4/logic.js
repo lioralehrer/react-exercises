@@ -8,45 +8,23 @@ class Signing extends React.Component {
             check2: false,
             disable1: false
         })
+        this.counter = 0;
 
     }
     handleChange(event) {
-        console.log("inside handle "+event.target.checked);
         if (event.target.checked) {
-            if (event.target.id === "check1") {
-                
-                this.setState({
-                    check1: true
-                })
-                console.log("inside handle "+event.target.id);
-            } else {
-                console.log("inside handle "+event.target.id);
-                this.setState({
-                    check2: true
-                })
-            }
-            if (this.state.check1 && this.state.check2) {
-                console.log("inside handle "+this.state.check1 + this.state.check2);
+            this.counter++
+            if (this.counter === 2) {
                 this.setState({
                     disable1: true
                 })
-                console.log(this.state.disable);
             }
+
         }else {
-            if (event.target.id === "check1") {
-                console.log("inside handle "+event.target.id);
-                this.setState({
-                    check1: false
-                })
-            } else {
-                console.log("inside handle "+event.target.id);
-                this.setState({
-                    check2: false
-                })
-            } 
+            this.counter--
         }
-        
-     
+
+
     }
 
 
