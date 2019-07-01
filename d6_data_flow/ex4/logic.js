@@ -6,7 +6,7 @@ class Signing extends React.Component {
         this.state = ({
             check1: false,
             check2: false,
-            disable1: false
+            disable1: true
         })
         this.counter = 0;
 
@@ -16,7 +16,7 @@ class Signing extends React.Component {
             this.counter++
             if (this.counter === 2) {
                 this.setState({
-                    disable1: true
+                    disable1: false
                 })
             }
 

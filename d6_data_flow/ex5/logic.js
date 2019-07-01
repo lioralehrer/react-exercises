@@ -13,9 +13,9 @@ class Category extends React.Component {
     render() {
         return (
             <select>
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="opel">Opel</option>
+                <option value={this.props.category1}>{this.props.category1}</option>
+                <option value={this.props.category2}>{this.props.category2}</option>
+                <option value={this.props.category3}>{this.props.category3}</option>
             </select>
         )
     }
