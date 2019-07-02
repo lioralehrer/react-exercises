@@ -41,12 +41,12 @@ class App extends React.Component {
     }
     componentDidMount(){
         console.log("App was mounted");
-        setInterval(()=>{
-            this.setState({
-                isShown :!this.state.isShown
-            });
-        },3000)
-    }
+    //     setInterval(()=>{
+    //         this.setState({
+    //             isShown :!this.state.isShown
+    //         });
+    //     },3000)
+     }
     render() {
         console.log("app render");
         return (
@@ -59,4 +59,4 @@ class App extends React.Component {
 }
 
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ ReactDOM.render(<App />, document.getElementById("root"));
