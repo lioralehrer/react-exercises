@@ -16,6 +16,7 @@ class App extends React.Component{
             isNotProgram : ""
         })
     }
+  
     programmedBefore(e){
         e.target.value === "no"? this.setState({
             isNotProgram :"checked"
