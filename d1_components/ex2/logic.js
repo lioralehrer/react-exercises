@@ -1,3 +1,9 @@
+// We want to create 4 components: Box1, Box2, Box3, Box4.
+// Box1 is the big green box.
+// Box4 is the smallest purple box – we use it twice.
+// Note that the boxes contain one another. Box 1 contains Box 2, which contains Box 3, which contains 2 Box 4
+// components.
+
 class App extends React.Component {
     render() {
         return (
